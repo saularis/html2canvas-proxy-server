@@ -1,0 +1,23 @@
+{
+  "name": "html2canvas-proxy-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saularis/html2canvas-proxy-server.git"
+  },
+  "author": "Abdulla Malik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saularis/html2canvas-proxy-server/issues"
+  },
+  "homepage": "https://github.com/saularis/html2canvas-proxy-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html2canvas-proxy": "^1.0.1"
+  }
+}
