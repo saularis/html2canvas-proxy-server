@@ -18,6 +18,7 @@
   "homepage": "https://github.com/saularis/html2canvas-proxy-server#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "helmet": "^4.3.1",
     "html2canvas-proxy": "^1.0.1"
   }
 }
