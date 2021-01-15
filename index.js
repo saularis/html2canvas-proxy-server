@@ -5,8 +5,8 @@ var express = require('express');
 var helmet = require("helmet");
 
 const options = {
-    key: fs.readFileSync("/home/ubuntu/dev.xmock.com/privkey.pem"),
-    cert: fs.readFileSync("/home/ubuntu/dev.xmock.com/chain.pem"),
+    key: fs.readFileSync("/etc/letsencrypt/live/dev.xmock.com/privkey.pem"),
+    cert: fs.readFileSync("/etc/letsencrypt/live/dev.xmock.com/chain.pem"),
     dhparam: fs.readFileSync("/home/ubuntu/dev.xmock.com/dh-strong.pem")
   };
 
