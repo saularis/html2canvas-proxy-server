@@ -1,4 +1,5 @@
 var https = require("https");
+var fs = require("fs");
 var proxy = require('html2canvas-proxy');
 var express = require('express');
 var helmet = require("helmet");
